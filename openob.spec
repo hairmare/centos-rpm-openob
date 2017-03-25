@@ -37,7 +37,6 @@ It is primarily designed for broadcast applications including (but not limited t
 %py2_install
 
 %files
-%doc README.md
 %{python2_sitelib}/%{name}
 %{python2_sitelib}/%{srcname}-%{version}*.egg-info
 %{_bindir}/%{name}
