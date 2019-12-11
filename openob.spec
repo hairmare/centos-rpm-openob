@@ -15,6 +15,9 @@ Requires:       pygobject2
 Requires:       gstreamer-python
 Requires:       gstreamer-plugins-good
 Requires:       python-redis
+%if 0%{?centos_version} >= 800
+Suggests:		redis
+%endif
 
 BuildArch:      noarch
 
